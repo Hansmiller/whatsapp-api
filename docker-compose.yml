@@ -9,7 +9,7 @@ services:
       - api_sessions:/usr/src/app/sessions
     environment:
       - API_KEY=elitetech  # OPTIONAL
-      - BASE_WEBHOOK_URL=https://apiwhats.elitetech.pt/localCallbackExample
+      - BASE_WEBHOOK_URL=https://localCallbackExample
       - ENABLE_LOCAL_CALLBACK_EXAMPLE=TRUE # OPTIONAL, NOT RECOMMENDED FOR PRODUCTION
       - MAX_ATTACHMENT_SIZE=5000000 # IN BYTES
       - SET_MESSAGES_AS_SEEN=TRUE # WILL MARK THE MESSAGES AS READ AUTOMATICALLY
